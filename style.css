@@ -1,0 +1,64 @@
+body img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    border: black solid;
+    border-width: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightgray;
+}
+
+.bio-box {
+    background-color: white;
+    padding: 10px;
+}
+
+.bio-box p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* Navbar */
+.navbar {
+    padding: 0px;
+    background: white;
+    width: 100%;
+
+}
+
+/* Navbar: specifically the website title */
+.navbar-light .navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background: rgb(93, 93, 158);
+    padding: 20px;
+    margin-left: 20px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* Navbar: list objects */
+.navbar li {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Navbar: list objects (link text) */
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-align: right;
+
+}
