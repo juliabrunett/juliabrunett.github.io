@@ -1,3 +1,10 @@
+/* CSS HEX
+--british-racing-green: #294A2Fff;
+--hunter-green: #34553Aff;
+--desert-sand: #CAB09Fff;
+--columbia-blue: #C5E0EBff;
+--artichoke: #90A187ff; */
+
 body img {
     width: 300px;
     height: 300px;
@@ -10,14 +17,57 @@ body img {
     margin-bottom: 10px;
 }
 
+.page-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-width: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+h2 {
+    padding: 10px;
+    color: white;
+}
+
+h3 {
+    padding: 10px;
+    color: white;
+}
+
+.main-title {
+    background-color:#34553Aff;
+    margin-top: 20px;
+    
+}
+
+.project-title {
+    background-color:#90A187ff;
+    margin-top: 20px;
+}
+
+.tools-list li{
+    font-size: 20px;
+}
+
+/* annie-spratt-OWq8w3BYMFY-unsplash */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: lightgray;
+    background-image: url(./Assets/background.jpg); /* annie-spratt-OWq8w3BYMFY-unsplash */
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
 }
 
 .bio-box {
-    background-color: white;
-    padding: 10px;
+    background-color: whitesmoke;
+    padding: 20px;
 }
 
 .bio-box p {
@@ -28,7 +78,7 @@ body {
 /* Navbar */
 .navbar {
     padding: 0px;
-    background: white;
+    background: whitesmoke;
     width: 100%;
 
 }
@@ -37,11 +87,11 @@ body {
 .navbar-light .navbar-brand {
     font-size: 25px;
     font-weight: bold;
-    color: white;
-    background: rgb(93, 93, 158);
+    color: whitesmoke;
+    background: #90A187ff;
     padding: 20px;
     margin-left: 20px;
-    color: white;
+    color: whitesmoke;
     font-family:Georgia, 'Times New Roman', Times, serif;
 
 }
@@ -57,7 +107,7 @@ body {
 /* Navbar: list objects (link text) */
 .navbar li a {
     text-decoration: none;
-    color: black;
+    color: #34553Aff;
     font-size: 15px;
     text-align: right;
 
