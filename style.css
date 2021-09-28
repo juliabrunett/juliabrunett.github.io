@@ -10,11 +10,24 @@ body img {
     height: 300px;
     display: block;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     border: black solid;
     border-width: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+    padding: 0px;
+    border: #90A187ff solid;
+    border-width: 8px;
 }
 
 .page-img {
@@ -43,12 +56,15 @@ h3 {
 .main-title {
     background-color:#34553Aff;
     margin-top: 20px;
-    
+    border-bottom: black solid;
+    border-radius: 10px;
 }
 
 .project-title {
     background-color:#90A187ff;
     margin-top: 20px;
+    border-bottom: black solid;
+    border-radius: 10px;
 }
 
 .tools-list li{
@@ -88,7 +104,7 @@ body {
     font-size: 25px;
     font-weight: bold;
     color: whitesmoke;
-    background: #90A187ff;
+    /* background: #90A187ff; */
     padding: 20px;
     margin-left: 20px;
     color: whitesmoke;
@@ -108,7 +124,13 @@ body {
 .navbar li a {
     text-decoration: none;
     color: #34553Aff;
-    font-size: 15px;
+    font-size: 18px;
     text-align: right;
 
+}
+
+@media (max-width: 768px) {
+    #logo {
+        width: 80px;
+    }
 }
