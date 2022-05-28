@@ -129,8 +129,22 @@ body {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     #logo {
-        width: 80px;
+        width: 200px;
+    }
+
+    
+    .main-title {
+        background-color: white;
+        margin-top: 20px;
+        border-bottom: black solid;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    nav.navbar {
+        height: 300px;
     }
 }
